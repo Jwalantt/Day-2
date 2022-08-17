@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Tag and Array </title>
+</head>
+<body>
+      <center>
+        <h1>
+            Using Tag and Array
+        </h1>
+      </center>
+      <center><h3>Click "Change" to change the text of this pragraph.</h3>
+      <button onclick="myFunction()">Change</button></center>
+      
+      <script>
+      function myFunction() {
+        const list = document.getElementsByTagName("h3")[0].innerHTML = "Paragraph Is Changed";
+      }
+      </script>
+      
+</body>
+</html>
